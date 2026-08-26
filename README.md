@@ -150,9 +150,9 @@ aspis/
     └── DATA.md
 ```
 
-Each `model`-based signal's core logic (`frequency_features.py`,
+Each `model`- based signal's core logic (`frequency_features.py`,
 `clip_embedding.py`) is split from its threshold-loading wrapper, so the
-underlying math has no dependency on a calibration file — the
+underlying math has no dependency on a calibration file, the
 calibration scripts can import the same logic without a circular
 dependency.
 
@@ -169,7 +169,7 @@ dependency.
 
 Fraud used for evaluation of `behavioral` and `duplicate_evidence` is
 synthetically injected (see [`docs/DATA.md`](docs/DATA.md)), not drawn
-from real-world fraud cases — these numbers measure whether each
+from real-world fraud cases, these numbers measure whether each
 detector's underlying mechanism works, not real-world accuracy.
 
 ---
@@ -229,7 +229,7 @@ PYTHONPATH=. pytest tests/test_checks.py -v
 13 unit tests across all four signals, mostly self-contained with
 synthetic fixtures (no dataset download required). `product_identity`'s
 tests require the downloaded listing-image set, since CLIP is a semantic
-model and doesn't respond meaningfully to synthetic test patterns — run
+model and doesn't respond meaningfully to synthetic test patterns, run
 `fetch_product_images.py` first if starting from a fresh clone.
 
 ---
@@ -237,7 +237,7 @@ model and doesn't respond meaningfully to synthetic test patterns — run
 ## Limitations & roadmap
 
 - **No combined risk score.** Four signals return four separate scores
-  rather than one — a weighted combiner was deliberately not built
+  rather than one, a weighted combiner was deliberately not built
   without validated weights to back it.
 - **Evaluation fraud is synthetic**, not drawn from real cases.
 - **`/score-claim` currently scores claims from a pre-loaded dataset**,
@@ -245,5 +245,5 @@ model and doesn't respond meaningfully to synthetic test patterns — run
   and `image_authenticity` would generalize to a new photo directly;
   `product_identity` would need a live listing-image fetch; `behavioral`
   already handles a first-time claimant correctly (no history → score 0).
-- No authentication, no persistence beyond flat files, single process —
+- No authentication, no persistence beyond flat files, single process,
   a prototype, not a production system.
