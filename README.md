@@ -119,7 +119,10 @@ aspis/
 │   ├── calibration/
 │   │   ├── calibrate_thresholds.py
 │   │   ├── calibrate_authenticity_threshold.py
-│   │   └── calibrate_product_identity_threshold.py
+│   │   ├── calibrate_product_identity_threshold.py
+│   │   ├── authenticity_threshold.json
+│   │   ├── calibrated_thresholds.json
+│   │   └──  product_identity_threshold.json
 │   ├── testset_acquisition/
 │   │   ├── fetch_authenticity_test_set.py
 │   │   └── fetch_product_images.py
@@ -141,7 +144,6 @@ aspis/
 │       ├── manifest_with_price_and_fraud.jsonl
 │       ├── manifest_with_price.jsonl
 │       ├── manifest.jsonl
-│       ├── meta.jsonl
 │       └── price_join_report.json
 ├── tests/
 │   └── test_checks.py
