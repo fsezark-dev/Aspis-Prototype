@@ -59,7 +59,7 @@ number — see [Limitations & roadmap](#limitations--roadmap) for why.
 Built on top of the [McAuley-Lab/Amazon-Reviews-2023](https://amazon-reviews-2023.github.io/) dataset.
 (Electronics category), with real reviews reshaped into synthetic claims
 and labeled fraud cases injected on top for evaluation. Full data
-methodology is documented in [`docs/DATA.md`](docs/DATA.md).
+methodology is documented in [`data.md`](DATA.md).
 
 ---
 
@@ -169,7 +169,7 @@ dependency.
 | `product_identity` | — | not yet reliably measurable (n=5) | 9.1% false-positive rate on 430 genuine claims |
 
 Fraud used for evaluation of `behavioral` and `duplicate_evidence` is
-synthetically injected (see [`docs/DATA.md`](docs/DATA.md)), not drawn
+synthetically injected (see [`data.md`](data.md)), not drawn
 from real-world fraud cases, these numbers measure whether each
 detector's underlying mechanism works, not real-world accuracy.
 
@@ -217,7 +217,7 @@ PYTHONPATH=. python3 data_pipeline/calibrate_product_identity_threshold.py
 
 Full details on dataset sourcing, the reshaping of reviews into claims,
 and each signal's exact image-processing method are in
-[`docs/DATA.md`](docs/DATA.md).
+[`data.md`](data.md).
 
 ---
 
