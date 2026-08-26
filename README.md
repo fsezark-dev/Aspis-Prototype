@@ -59,7 +59,7 @@ number — see [Limitations & roadmap](#limitations--roadmap) for why.
 Built on top of the [McAuley-Lab/Amazon-Reviews-2023](https://amazon-reviews-2023.github.io/) dataset.
 (Electronics category), with real reviews reshaped into synthetic claims
 and labeled fraud cases injected on top for evaluation. Full data
-methodology is documented in [`data.md`](DATA.md).
+methodology is documented in [`data.md`](data.md).
 
 ---
 
@@ -148,7 +148,7 @@ aspis/
 ├── tests/
 │   └── test_checks.py
 └── docs/
-    └── DATA.md
+    └── data.md
 ```
 
 Each `model`- based signal's core logic (`frequency_features.py`,
