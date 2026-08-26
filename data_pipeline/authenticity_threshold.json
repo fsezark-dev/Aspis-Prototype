@@ -1,0 +1,6 @@
+{
+  "threshold": 0.2535749407879244,
+  "percentile_used": 0.05,
+  "n_real_images": 60,
+  "computed_from": "COCO_AI real subset (proxy dataset, not domain-matched to product photos)"
+}
