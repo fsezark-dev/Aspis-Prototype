@@ -1,0 +1,9 @@
+{
+  "total_claims": 851,
+  "claims_with_prior_history": 168,
+  "fraction_with_prior_history": 0.19741480611045828,
+  "max_prior_claim_count": 17,
+  "claims_missing_amount_signal": 765,
+  "claims_missing_rating_signal": 683,
+  "note": "region/device_type/device_id are SYNTHETIC — not present in source data. Assigned one stable identity per user_id via a fixed-seed rule (see assign_synthetic_identity). Fraud-ring patterns (shared/rotating identity) are injected separately, on top of this clean baseline, not mixed into it here."
+}

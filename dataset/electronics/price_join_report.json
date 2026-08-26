@@ -1,0 +1,10 @@
+{
+  "manifest_claims": 800,
+  "matched_with_price": 451,
+  "unmatched_no_price": 349,
+  "match_fraction": 0.56375,
+  "meta_records_loaded": 1610012,
+  "meta_asins_with_price": 526449,
+  "meta_asins_missing_price_field": 1083563,
+  "note": "unmatched_no_price claims keep price=None rather than being dropped or defaulted to 0 — feature_builder.py already reports these explicitly via feature_sources['avg_prior_transaction_amount'] = 'missing', so the gap stays visible end to end."
+}

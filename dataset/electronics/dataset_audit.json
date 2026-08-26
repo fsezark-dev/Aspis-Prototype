@@ -1,0 +1,375 @@
+{
+  "dataset": {
+    "manifest": "dataset/electronics/manifest.jsonl",
+    "total_reviews": 800,
+    "total_images": 2078,
+    "average_images_per_review": 2.5975
+  },
+  "evidence_categories": {
+    "damaged": {
+      "reviews": 562,
+      "fraction": 0.7025
+    },
+    "missing": {
+      "reviews": 210,
+      "fraction": 0.2625
+    },
+    "defective": {
+      "reviews": 63,
+      "fraction": 0.07875
+    },
+    "wrong_item": {
+      "reviews": 38,
+      "fraction": 0.0475
+    },
+    "not_as_described": {
+      "reviews": 20,
+      "fraction": 0.025
+    },
+    "packaging_damage": {
+      "reviews": 3,
+      "fraction": 0.00375
+    }
+  },
+  "image_distribution": {
+    "count": 800,
+    "min": 1,
+    "max": 21,
+    "mean": 2.5975,
+    "median": 2.0,
+    "p25": 1.0,
+    "p75": 3.0,
+    "p90": 5.0,
+    "p95": 7.0
+  },
+  "verified_purchase": {
+    "verified": 581,
+    "not_verified": 219,
+    "verified_fraction": 0.72625
+  },
+  "users": {
+    "unique_users": 657,
+    "users_with_multiple_reviews": 73,
+    "repeat_user_fraction": 0.1111111111111111,
+    "reviews_per_user": {
+      "count": 657,
+      "min": 1,
+      "max": 18,
+      "mean": 1.21765601217656,
+      "median": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "p90": 2.0,
+      "p95": 2.0
+    },
+    "top_users": [
+      {
+        "user_id": "AHR6RGZTLOMBD7EBF3OK43JWMGNQ",
+        "review_count": 18
+      },
+      {
+        "user_id": "AH5Q3Y2QF53XZWWU5ARZNNIZSJZA",
+        "review_count": 8
+      },
+      {
+        "user_id": "AFKVE5HRFK3X27DPXME72PUR5NXQ",
+        "review_count": 6
+      },
+      {
+        "user_id": "AEVVEYZF4MQDPC2BY2HBBNGZRYHA",
+        "review_count": 6
+      },
+      {
+        "user_id": "AGDSEYGSA5K664EUHWKV3ARDXO2Q",
+        "review_count": 5
+      },
+      {
+        "user_id": "AGYRMITUSD6IEQMJDPHYMA7CJI2Q",
+        "review_count": 5
+      },
+      {
+        "user_id": "AG73BVBKUOH22USSFJA5ZWL7AKXA",
+        "review_count": 5
+      },
+      {
+        "user_id": "AFSZPYNWDTDCQWVC2ZDOXI3OSYMQ",
+        "review_count": 5
+      },
+      {
+        "user_id": "AGRCXV4NM763VGZGD6BQ2VGNCJNA",
+        "review_count": 5
+      },
+      {
+        "user_id": "AGUOEDUXBQSS2IZBV7JKYBIOK5RQ",
+        "review_count": 5
+      },
+      {
+        "user_id": "AFGDRVPCP742YM5MMLFIKZCGNNRQ",
+        "review_count": 4
+      },
+      {
+        "user_id": "AFUSWNVA72MMWHGYWJ652SYX2JJQ",
+        "review_count": 4
+      },
+      {
+        "user_id": "AFXAMSEN6MT4WQHSXCV4JRGXWODA",
+        "review_count": 4
+      },
+      {
+        "user_id": "AHVVW7WV3NTVWZXX6ET7PUHUPXIQ",
+        "review_count": 4
+      },
+      {
+        "user_id": "AH665SQ6SQF6DXAGYIQFCX76LALA",
+        "review_count": 4
+      },
+      {
+        "user_id": "AH6BB7CTWB4BGZTRVYQE3M3MMWSA",
+        "review_count": 3
+      },
+      {
+        "user_id": "AFE4QMAUZOJ2P6WRJO3P2C65GNFA",
+        "review_count": 3
+      },
+      {
+        "user_id": "AG2VBRYCITNPSMKEHAMTMVXYU37Q",
+        "review_count": 3
+      },
+      {
+        "user_id": "AHTDYGXHONM2BHENDRMKMC34ZZZA",
+        "review_count": 3
+      },
+      {
+        "user_id": "AE2ODZ4VYQ5FNNCONSHSNZM7PHSQ",
+        "review_count": 3
+      }
+    ],
+    "concentration": {
+      "top_10_review_fraction": 0.085,
+      "top_20_review_fraction": 0.12875
+    }
+  },
+  "products": {
+    "unique_asins": 789,
+    "asins_with_multiple_reviews": 4,
+    "reviews_per_asin": {
+      "count": 789,
+      "min": 1,
+      "max": 9,
+      "mean": 1.0139416983523448,
+      "median": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "top_asins": [
+      {
+        "asin": "B01G8JO5F2",
+        "review_count": 9
+      },
+      {
+        "asin": "B075KP5JLH",
+        "review_count": 2
+      },
+      {
+        "asin": "B00A7X4M1S",
+        "review_count": 2
+      },
+      {
+        "asin": "B06Y45YNV9",
+        "review_count": 2
+      },
+      {
+        "asin": "B083NRGZMM",
+        "review_count": 1
+      },
+      {
+        "asin": "B09RJ113HR",
+        "review_count": 1
+      },
+      {
+        "asin": "B087CHS5Z9",
+        "review_count": 1
+      },
+      {
+        "asin": "B08SHVBZ8M",
+        "review_count": 1
+      },
+      {
+        "asin": "B09BBHXYZ9",
+        "review_count": 1
+      },
+      {
+        "asin": "B07H6X3YQN",
+        "review_count": 1
+      },
+      {
+        "asin": "B083M7B6CJ",
+        "review_count": 1
+      },
+      {
+        "asin": "B07P5R2D42",
+        "review_count": 1
+      },
+      {
+        "asin": "B0865GYC9B",
+        "review_count": 1
+      },
+      {
+        "asin": "B0B5GP76ZJ",
+        "review_count": 1
+      },
+      {
+        "asin": "B08NDVF9VG",
+        "review_count": 1
+      },
+      {
+        "asin": "B07XL4XSPB",
+        "review_count": 1
+      },
+      {
+        "asin": "B09HJFC1RC",
+        "review_count": 1
+      },
+      {
+        "asin": "B08NX53RV3",
+        "review_count": 1
+      },
+      {
+        "asin": "B07YFV1ZSJ",
+        "review_count": 1
+      },
+      {
+        "asin": "B07J4GPPXF",
+        "review_count": 1
+      }
+    ],
+    "unique_parent_asins": 786,
+    "parent_asins_with_multiple_reviews": 6
+  },
+  "timestamps": {
+    "count": 800,
+    "earliest_unix_ms": 1108138095000,
+    "latest_unix_ms": 1679101775082,
+    "earliest_utc": "2005-02-11T16:08:15+00:00",
+    "latest_utc": "2023-03-18T01:09:35.082000+00:00"
+  },
+  "duplicates": {
+    "image_hashes": 2078,
+    "unique_image_hashes": 2078,
+    "duplicate_hash_groups": 0,
+    "duplicate_images": 0,
+    "duplicate_groups": {}
+  },
+  "category_verified_purchase": {
+    "missing": {
+      "verified": 115,
+      "not_verified": 95
+    },
+    "damaged": {
+      "verified": 436,
+      "not_verified": 126
+    },
+    "defective": {
+      "verified": 40,
+      "not_verified": 23
+    },
+    "wrong_item": {
+      "verified": 35,
+      "not_verified": 3
+    },
+    "not_as_described": {
+      "verified": 20
+    },
+    "packaging_damage": {
+      "verified": 3
+    }
+  },
+  "category_image_statistics": {
+    "missing": {
+      "count": 210,
+      "min": 1,
+      "max": 12,
+      "mean": 2.8190476190476192,
+      "median": 2.0,
+      "p25": 1.0,
+      "p75": 4.0,
+      "p90": 6.0,
+      "p95": 7.0
+    },
+    "damaged": {
+      "count": 562,
+      "min": 1,
+      "max": 21,
+      "mean": 2.5640569395017794,
+      "median": 2.0,
+      "p25": 1.0,
+      "p75": 3.0,
+      "p90": 5.0,
+      "p95": 7.0
+    },
+    "defective": {
+      "count": 63,
+      "min": 1,
+      "max": 16,
+      "mean": 2.873015873015873,
+      "median": 2.0,
+      "p25": 1.0,
+      "p75": 3.0,
+      "p90": 5.800000000000004,
+      "p95": 7.0
+    },
+    "wrong_item": {
+      "count": 38,
+      "min": 1,
+      "max": 7,
+      "mean": 2.1052631578947367,
+      "median": 1.0,
+      "p25": 1.0,
+      "p75": 2.0,
+      "p90": 5.0,
+      "p95": 5.149999999999999
+    },
+    "not_as_described": {
+      "count": 20,
+      "min": 1,
+      "max": 14,
+      "mean": 2.7,
+      "median": 1.5,
+      "p25": 1.0,
+      "p75": 3.25,
+      "p90": 4.100000000000001,
+      "p95": 5.450000000000006
+    },
+    "packaging_damage": {
+      "count": 3,
+      "min": 1,
+      "max": 5,
+      "mean": 2.6666666666666665,
+      "median": 2.0,
+      "p25": 1.5,
+      "p75": 3.5,
+      "p90": 4.4,
+      "p95": 4.699999999999999
+    }
+  },
+  "ratings": {
+    "1.0": 232,
+    "2.0": 80,
+    "3.0": 92,
+    "4.0": 139,
+    "5.0": 257
+  },
+  "multiple_images": {
+    "reviews_with_one_image": 333,
+    "reviews_with_multiple_images": 467,
+    "fraction_multiple": 0.58375,
+    "total_images_in_multi_image_reviews": 1745,
+    "maximum_images_in_one_review": 21
+  },
+  "data_quality": {
+    "missing_required_fields": {},
+    "records_with_any_missing_required_field": 0
+  }
+}
