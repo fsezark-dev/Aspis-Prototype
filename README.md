@@ -146,9 +146,10 @@ aspis/
 │       ├── manifest.jsonl
 │       └── price_join_report.json
 ├── tests/
+│   ├── __init__.py
 │   └── test_checks.py
-└── docs/
-    └── data.md
+├── data.md
+└── requirements.txt
 ```
 
 Each `model`- based signal's core logic (`frequency_features.py`,
