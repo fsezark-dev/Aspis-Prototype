@@ -35,7 +35,6 @@ from real data rather than hardcoded.
 - [Getting started](#getting-started)
 - [Data pipeline](#data-pipeline)
 - [Testing](#testing)
-- [Engineering notes](#engineering-notes)
 - [Limitations & roadmap](#limitations--roadmap)
 
 ---
