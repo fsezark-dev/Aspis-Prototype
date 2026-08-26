@@ -1,0 +1,8 @@
+{
+  "threshold": 0.4487685516476631,
+  "percentile_used": 0.05,
+  "n_genuine_pairs": 430,
+  "min_similarity": 0.3133235573768616,
+  "max_similarity": 0.9121596813201904,
+  "note": "Calibrated from genuine (label=0) claims with a matched listing image only."
+}

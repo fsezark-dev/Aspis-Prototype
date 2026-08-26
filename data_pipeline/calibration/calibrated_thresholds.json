@@ -1,0 +1,9 @@
+{
+  "percentile_used": 0.95,
+  "computed_from": "dataset/electronics/behavioral_features_genuine.jsonl",
+  "n_claims": 800,
+  "prior_claim_count_threshold": 3.0,
+  "return_chargeback_count_threshold": 3.0,
+  "avg_gap_ms_threshold": 609017271.4285715,
+  "note": "Thresholds are the value at the stated percentile of each feature in the GENUINE baseline (pre-fraud-injection). prior_claim_count and return_chargeback_count use the 95th percentile (flag the unusually high tail). avg_gap_ms uses the 5th percentile (flag the unusually LOW tail — claims clustered too close together in time)."
+}
